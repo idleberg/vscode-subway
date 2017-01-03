@@ -4,28 +4,28 @@
 [![GitHub](https://img.shields.io/github/release/idleberg/vscode-subway.svg?style=flat-square)](https://github.com/idleberg/vscode-subway/releases)
 [![Travis branch](https://img.shields.io/travis/idleberg/vscode-subway/master.svg?style=flat-square)](https://travis-ci.org/idleberg/vscode-subway)
 
-A collection of color schemes based on subway maps from around the world (also available in a [dark variant](https://marketplace.visualstudio.com/items?itemName=idleberg.subway-dark)!)
+A collection of color schemes based on subway maps from around the world (also available in a [dark variant](https://marketplace.visualstudio.com/items?itemName=idleberg.subway-dark))
 
 ![Screenshot](https://raw.githubusercontent.com/idleberg/vscode-subway/master/images/screenshot.png)
 
 **Featured Maps**
 
-* Barcelona
-* Berlin
-* Buenos Aires
-* Chicago
-* Copenhagen
-* Hong Kong
-* London
-* Madrid
-* Moscow
-* New-york
-* Paris
-* São Paulo
-* Seoul
-* Sydney
-* Tokyo
-* Zürich
+* [Barcelona](http://www.mapametrobarcelona.net/en-index.php)
+* [Berlin](http://www.s-bahn-berlin.de/fahrplanundnetz/liniennetz.htm)
+* [Buenos Aires](http://mapa-metro.com/en/Argentina/Buenos%20Aires/Buenos%20Aires-Subte-map.htm)
+* [Chicago](http://www.transitchicago.com/maps/)
+* [Copenhagen](http://intl.m.dk/#!/)
+* [Hong Kong](http://www.mtr.com.hk/en/customer/services/system_map.html)
+* [London](https://tfl.gov.uk/maps/track/tube)
+* [Madrid](https://www.metromadrid.es/en/viaja_en_metro/red_de_metro/planos/)
+* [Moscow](http://news.metro.ru/sc_lat.html)
+* [New York](http://web.mta.info/maps/submap.html)
+* [Paris](http://www.ratp.fr/informer/pdf/orienter/f_plan.php)
+* [São Paulo](http://saopaulomap360.com/sao-paulo-metro-map)
+* [Seoul](https://www.smrt.co.kr/program/cyberStation/main2.jsp?lang=e)
+* [Sydney](http://www.sydneytrains.info/stations/network_map)
+* [Tokyo](http://www.tokyometro.jp/en/subwaymap/)
+* [Zürich](http://www.zvv.ch/zvv/en/timetable/network-maps.html)
 
 ## Installation
 
