@@ -10,11 +10,11 @@
         "url": "http://github.com/idleberg"
     },
     "keywords": [
+        "base16",
         "cartography",
+        "subway maps",
         "subway",
-        "transportation",
-        "underground",
-        "tube"
+        "transportation"
     ],
     "repository": {
         "type": "git",
