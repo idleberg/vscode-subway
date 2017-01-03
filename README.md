@@ -6,6 +6,10 @@
 
 A collection of color schemes based on subway maps from around the world.
 
+![Screenshot](https://raw.githubusercontent.com/idleberg/vscode-subway/master/images/screenshot.png)
+
+*Generic screenshot*
+
 **Themes:**
 
 * Barcelona
@@ -26,10 +30,6 @@ A collection of color schemes based on subway maps from around the world.
 * Zürich
 
 All these themes are also available in a [dark variant](https://marketplace.visualstudio.com/items?itemName=idleberg.subway-dark)!
-
-![Screenshot](https://raw.githubusercontent.com/idleberg/vscode-subway/master/images/screenshot.png)
-
-*Generic screenshot*
 
 ## Installation
 
