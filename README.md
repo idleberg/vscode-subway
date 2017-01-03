@@ -4,9 +4,11 @@
 [![GitHub](https://img.shields.io/github/release/idleberg/vscode-subway.svg?style=flat-square)](https://github.com/idleberg/vscode-subway/releases)
 [![Travis branch](https://img.shields.io/travis/idleberg/vscode-subway/master.svg?style=flat-square)](https://travis-ci.org/idleberg/vscode-subway)
 
-A collection of color schemes based on subway maps from around the world
+A collection of color schemes based on subway maps from around the world. Also available as a [dark theme](https://marketplace.visualstudio.com/items?itemName=idleberg.subway-dark)!
 
 ![Screenshot](https://raw.githubusercontent.com/idleberg/vscode-subway/master/images/screenshot.png)
+
+*Generic screenshot*
 
 ## Installation
 
