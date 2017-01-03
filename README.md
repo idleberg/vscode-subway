@@ -8,7 +8,7 @@ A collection of color schemes based on subway maps from around the world (also a
 
 ![Screenshot](https://raw.githubusercontent.com/idleberg/vscode-subway/master/images/screenshot.png)
 
-**Themes:**
+**Featured Maps**
 
 * Barcelona
 * Berlin
