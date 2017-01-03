@@ -2,11 +2,11 @@
 
 [![Creative Commons](https://img.shields.io/badge/license-CC0%201.0-orange.svg?style=flat-square)](http://creativecommons.org/publicdomain/zero/1.0/)
 [![GitHub](https://img.shields.io/github/release/idleberg/vscode-subway.svg?style=flat-square)](https://github.com/idleberg/vscode-subway/releases)
-[![Travis branch](https://img.shields.io/travis/idleberg/atom-hopscotch/master.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-hopscotch)
+[![Travis branch](https://img.shields.io/travis/idleberg/vscode-subway/master.svg?style=flat-square)](https://travis-ci.org/idleberg/vscode-subway)
 
 A collection of color schemes based on subway maps from around the world
 
-![Screenshot](https://raw.githubusercontent.com/idleberg/vscode-subway/master/preview.png)
+![Screenshot](https://raw.githubusercontent.com/idleberg/vscode-subway/master/images/screenshot.png)
 
 ## Installation
 
