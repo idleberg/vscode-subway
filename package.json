@@ -1,117 +1,117 @@
 {
-    "name": "subway",
-    "displayName": "Subway",
-    "description": "A collection of color schemes based on subway maps from around the world",
-    "version": "1.0.2",
-    "publisher": "idleberg",
-    "license": "CC0-1.0",
-    "author": {
-        "name": "Jan T. Sott",
-        "url": "http://github.com/idleberg"
-    },
-    "keywords": [
-        "base16",
-        "cartography",
-        "subway maps",
-        "subway",
-        "transportation"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/idleberg/vscode-subway.git"
-    },
-    "homepage": "https://github.com/idleberg/vscode-subway",
-    "bugs": {
-        "url": "https://github.com/idleberg/vscode-subway/issues"
-    },
-    "icon": "images/logo.svg",
-    "galleryBanner": {
-        "color": "#989c9c",
-        "theme": "dark"
-    },
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Barcelona",
-                "path": "./themes/barcelona.tmTheme"
-            },
-            {
-                "label": "Subway: Berlin",
-                "path": "./themes/berlin.tmTheme"
-            },
-            {
-                "label": "Subway: Buenos Aires",
-                "path": "./themes/buenos-aires.tmTheme"
-            },
-            {
-                "label": "Subway: Chicago",
-                "path": "./themes/chicago.tmTheme"
-            },
-            {
-                "label": "Subway: Copenhagen",
-                "path": "./themes/copenhagen.tmTheme"
-            },
-            {
-                "label": "Subway: Hong Kong",
-                "path": "./themes/hong-kong.tmTheme"
-            },
-            {
-                "label": "Subway: London",
-                "path": "./themes/london.tmTheme"
-            },
-            {
-                "label": "Subway: Madrid",
-                "path": "./themes/madrid.tmTheme"
-            },
-            {
-                "label": "Subway: Moscow",
-                "path": "./themes/moscow.tmTheme"
-            },
-            {
-                "label": "Subway: New York",
-                "path": "./themes/new-york.tmTheme"
-            },
-            {
-                "label": "Subway: Paris",
-                "path": "./themes/paris.tmTheme"
-            },
-            {
-                "label": "Subway: São Paulo",
-                "path": "./themes/sao-paulo.tmTheme"
-            },
-            {
-                "label": "Subway: Seoul",
-                "path": "./themes/seoul.tmTheme"
-            },
-            {
-                "label": "Subway: Sydney",
-                "path": "./themes/sydney.tmTheme"
-            },
-            {
-                "label": "Subway: Tokyo",
-                "path": "./themes/tokyo.tmTheme"
-            },
-            {
-                "label": "Subway: Zürich",
-                "path": "./themes/zurich.tmTheme"
-            }
-        ]
-    },
-    "devDependencies": {
-        "gulp": "github:gulpjs/gulp#4.0",
-        "gulp-debug": "^3.0.0",
-        "gulp-eslint": "^3.0.1",
-        "gulp-jsonlint": "^1.1.2",
-        "gulp-xml-validator": "^0.1.2",
-        "vscode": "^1.0.3"
-    },
-    "scripts": {
-        "test": "gulp lint"
-    }
+  "name": "subway",
+  "displayName": "Subway",
+  "description": "A collection of color schemes based on subway maps from around the world",
+  "version": "1.0.2",
+  "publisher": "idleberg",
+  "license": "CC0-1.0",
+  "author": {
+    "name": "Jan T. Sott",
+    "url": "http://github.com/idleberg"
+  },
+  "keywords": [
+    "base16",
+    "cartography",
+    "subway maps",
+    "subway",
+    "transportation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idleberg/vscode-subway.git"
+  },
+  "homepage": "https://github.com/idleberg/vscode-subway",
+  "bugs": {
+    "url": "https://github.com/idleberg/vscode-subway/issues"
+  },
+  "icon": "images/logo.svg",
+  "galleryBanner": {
+    "color": "#989c9c",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Barcelona",
+        "path": "./themes/barcelona.tmTheme"
+      },
+      {
+        "label": "Subway: Berlin",
+        "path": "./themes/berlin.tmTheme"
+      },
+      {
+        "label": "Subway: Buenos Aires",
+        "path": "./themes/buenos-aires.tmTheme"
+      },
+      {
+        "label": "Subway: Chicago",
+        "path": "./themes/chicago.tmTheme"
+      },
+      {
+        "label": "Subway: Copenhagen",
+        "path": "./themes/copenhagen.tmTheme"
+      },
+      {
+        "label": "Subway: Hong Kong",
+        "path": "./themes/hong-kong.tmTheme"
+      },
+      {
+        "label": "Subway: London",
+        "path": "./themes/london.tmTheme"
+      },
+      {
+        "label": "Subway: Madrid",
+        "path": "./themes/madrid.tmTheme"
+      },
+      {
+        "label": "Subway: Moscow",
+        "path": "./themes/moscow.tmTheme"
+      },
+      {
+        "label": "Subway: New York",
+        "path": "./themes/new-york.tmTheme"
+      },
+      {
+        "label": "Subway: Paris",
+        "path": "./themes/paris.tmTheme"
+      },
+      {
+        "label": "Subway: São Paulo",
+        "path": "./themes/sao-paulo.tmTheme"
+      },
+      {
+        "label": "Subway: Seoul",
+        "path": "./themes/seoul.tmTheme"
+      },
+      {
+        "label": "Subway: Sydney",
+        "path": "./themes/sydney.tmTheme"
+      },
+      {
+        "label": "Subway: Tokyo",
+        "path": "./themes/tokyo.tmTheme"
+      },
+      {
+        "label": "Subway: Zürich",
+        "path": "./themes/zurich.tmTheme"
+      }
+    ]
+  },
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-debug": "^3.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-jsonlint": "^1.2.0",
+    "gulp-xml-validator": "^0.1.2",
+    "vscode": "^1.0.3"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  }
 }
