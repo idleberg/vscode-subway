@@ -39,66 +39,82 @@
         "themes": [
             {
                 "label": "Barcelona",
+                "uiTheme": "vs",
                 "path": "./themes/barcelona.tmTheme"
             },
             {
                 "label": "Subway: Berlin",
+                "uiTheme": "vs",
                 "path": "./themes/berlin.tmTheme"
             },
             {
                 "label": "Subway: Buenos Aires",
+                "uiTheme": "vs",
                 "path": "./themes/buenos-aires.tmTheme"
             },
             {
                 "label": "Subway: Chicago",
+                "uiTheme": "vs",
                 "path": "./themes/chicago.tmTheme"
             },
             {
                 "label": "Subway: Copenhagen",
+                "uiTheme": "vs",
                 "path": "./themes/copenhagen.tmTheme"
             },
             {
                 "label": "Subway: Hong Kong",
+                "uiTheme": "vs",
                 "path": "./themes/hong-kong.tmTheme"
             },
             {
                 "label": "Subway: London",
+                "uiTheme": "vs",
                 "path": "./themes/london.tmTheme"
             },
             {
                 "label": "Subway: Madrid",
+                "uiTheme": "vs",
                 "path": "./themes/madrid.tmTheme"
             },
             {
                 "label": "Subway: Moscow",
+                "uiTheme": "vs",
                 "path": "./themes/moscow.tmTheme"
             },
             {
                 "label": "Subway: New York",
+                "uiTheme": "vs",
                 "path": "./themes/new-york.tmTheme"
             },
             {
                 "label": "Subway: Paris",
+                "uiTheme": "vs",
                 "path": "./themes/paris.tmTheme"
             },
             {
                 "label": "Subway: São Paulo",
+                "uiTheme": "vs",
                 "path": "./themes/sao-paulo.tmTheme"
             },
             {
                 "label": "Subway: Seoul",
+                "uiTheme": "vs",
                 "path": "./themes/seoul.tmTheme"
             },
             {
                 "label": "Subway: Sydney",
+                "uiTheme": "vs",
                 "path": "./themes/sydney.tmTheme"
             },
             {
                 "label": "Subway: Tokyo",
+                "uiTheme": "vs",
                 "path": "./themes/tokyo.tmTheme"
             },
             {
                 "label": "Subway: Zürich",
+                "uiTheme": "vs",
                 "path": "./themes/zurich.tmTheme"
             }
         ]
