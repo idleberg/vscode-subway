@@ -24,7 +24,7 @@
     "bugs": {
         "url": "https://github.com/idleberg/vscode-subway/issues"
     },
-    "icon": "images/logo.svg",
+    "icon": "images/logo.png",
     "galleryBanner": {
         "color": "#989c9c",
         "theme": "dark"
@@ -124,10 +124,15 @@
         "gulp-debug": "^3.0.0",
         "gulp-eslint": "^3.0.1",
         "gulp-jsonlint": "^1.2.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-svg2png": "^2.0.2",
         "gulp-xml-validator": "^0.1.2",
         "vscode": "^1.0.3"
     },
     "scripts": {
-        "test": "gulp lint"
+        "compile": "tsc -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "gulp lint",
+        "vscode:prepublish": "tsc -p ./ && gulp build"
     }
 }
