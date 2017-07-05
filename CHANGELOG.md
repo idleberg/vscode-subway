@@ -1,3 +1,8 @@
+# v1.0.5 [#](https://github.com/idleberg/vscode-subway/releases/tag/1.0.5)
+
+- use PNG logo (as required by upcoming versions of Code)
+- update `devDependencies`
+
 # v1.0.4 [#](https://github.com/idleberg/vscode-subway/releases/tag/1.0.4)
 
 - provide base `uiTheme` in manifest
@@ -17,3 +22,4 @@
 # v1.0.0 [#](https://github.com/idleberg/vscode-subway/releases/tag/1.0.0)
 
 - first release
+
