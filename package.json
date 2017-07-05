@@ -2,7 +2,7 @@
     "name": "subway",
     "displayName": "Subway",
     "description": "A collection of color schemes based on subway maps from around the world",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "publisher": "idleberg",
     "license": "CC0-1.0",
     "author": {
@@ -130,9 +130,8 @@
         "vscode": "^1.0.3"
     },
     "scripts": {
-        "compile": "tsc -p ./",
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "gulp lint",
-        "vscode:prepublish": "tsc -p ./ && gulp build"
+        "vscode:prepublish": "gulp build"
     }
 }
