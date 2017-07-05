@@ -13,7 +13,8 @@ const rename = require('gulp-rename');
 const svg2png = require('gulp-svg2png');
 const xmlVal = require('gulp-xml-validator');
 
-// Supported filesconst jsonFiles = [
+// Supported files
+const jsonFiles = [
   'package.json',
   'snippets/*.json'
 ];
@@ -23,7 +24,7 @@ const xmlFiles = [
 ];
 
 const svgFiles = [
-  'node_modules/nsis-logo-v3/src/Logo/outlines-light.svg'
+  'src/logo.svg'
 ];
 
 // Lint JSON
