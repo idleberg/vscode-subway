@@ -9,6 +9,11 @@
         "name": "Jan T. Sott",
         "url": "http://github.com/idleberg"
     },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "vscode-linter",
+        "vscode:prepublish": "gulp build"
+    },
     "keywords": [
         "base16",
         "cartography",
@@ -18,9 +23,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/idleberg/vscode-subway.git"
+        "url": "https://github.com/idleberg/vscode-subway"
     },
-    "homepage": "https://github.com/idleberg/vscode-subway",
+    "homepage": "https://github.com/idleberg/vscode-subway#readme",
     "bugs": {
         "url": "https://github.com/idleberg/vscode-subway/issues"
     },
@@ -120,18 +125,8 @@
         ]
     },
     "devDependencies": {
-        "gulp": "github:gulpjs/gulp#4.0",
-        "gulp-debug": "^3.0.0",
-        "gulp-eslint": "^3.0.1",
-        "gulp-jsonlint": "^1.2.0",
-        "gulp-raster": "^0.2.0",
-        "gulp-rename": "^1.2.2",
-        "gulp-xml-validator": "^0.1.2",
-        "vscode": "^1.0.3"
-    },
-    "scripts": {
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "gulp lint",
-        "vscode:prepublish": "gulp build"
+        "husky": "^0.14.3",
+        "vscode": "^1.0.3",
+        "vscode-linter": "^0.2.1"
     }
 }
