@@ -10,9 +10,10 @@
     "url": "http://github.com/idleberg"
   },
   "scripts": {
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "precommit": "npm run test",
-    "test": "vscode-linter",
+    "build": "gulp",
+    "format": "prettier --write ./themes/*.json",
+    "lint": "jsonlint --quiet ./snippets/*.json",
+    "test": "npm run lint",
     "vscode:prepublish": "gulp"
   },
   "keywords": [
