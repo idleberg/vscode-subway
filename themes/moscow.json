@@ -3,7 +3,11 @@
   "semanticHighlighting": true,
   "colors": {
     "editor.background": "#ffffff",
-    "editor.foreground": "#545052"
+    "editor.foreground": "#545052",
+    "editor.lineHighlightBackground": "#dddddc",
+    "editor.selectionHighlightBackground": "#dddddc",
+    "list.activeSelectionBackground": "#dddddc",
+    "list.activeSelectionForeground": "#545052"
   },
   "tokenColors": [
     {

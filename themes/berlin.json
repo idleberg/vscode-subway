@@ -5,7 +5,9 @@
     "editor.background": "#ffffff",
     "editor.foreground": "#505152",
     "editor.lineHighlightBackground": "#eeeeef",
-    "editor.selectionHighlightBackground": "#eeeeef"
+    "editor.selectionHighlightBackground": "#eeeeef",
+    "list.activeSelectionBackground": "#eeeeef",
+    "list.activeSelectionForeground": "#505152"
   },
   "tokenColors": [
     {
