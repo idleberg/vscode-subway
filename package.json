@@ -1,216 +1,228 @@
 {
-    "name": "subway",
-    "displayName": "Subway",
-    "description": "A collection of color schemes based on subway maps from around the world",
-    "version": "1.0.6",
-    "publisher": "idleberg",
-    "license": "CC0-1.0",
-    "author": {
-        "name": "Jan T. Sott",
-        "url": "http://github.com/idleberg"
-    },
-    "scripts": {
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "precommit": "npm run test",
-        "test": "vscode-linter",
-        "vscode:prepublish": "gulp"
-    },
-    "keywords": [
-        "base16",
-        "cartography",
-        "subway maps",
-        "subway",
-        "transportation"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/idleberg/vscode-subway"
-    },
-    "homepage": "https://github.com/idleberg/vscode-subway#readme",
-    "bugs": {
-        "url": "https://github.com/idleberg/vscode-subway/issues"
-    },
-    "icon": "images/logo.png",
-    "galleryBanner": {
-        "color": "#989c9c",
-        "theme": "dark"
-    },
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Subway: Barcelona (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/barcelona.tmTheme"
-            },
-            {
-                "label": "Subway: Berlin (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/berlin.tmTheme"
-            },
-            {
-                "label": "Subway: Buenos Aires (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/buenos-aires.tmTheme"
-            },
-            {
-                "label": "Subway: Chicago (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/chicago.tmTheme"
-            },
-            {
-                "label": "Subway: Copenhagen (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/copenhagen.tmTheme"
-            },
-            {
-                "label": "Subway: Hong Kong (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/hong-kong.tmTheme"
-            },
-            {
-                "label": "Subway: London (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/london.tmTheme"
-            },
-            {
-                "label": "Subway: Madrid (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/madrid.tmTheme"
-            },
-            {
-                "label": "Subway: Moscow (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/moscow.tmTheme"
-            },
-            {
-                "label": "Subway: New York (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/new-york.tmTheme"
-            },
-            {
-                "label": "Subway: Paris (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/paris.tmTheme"
-            },
-            {
-                "label": "Subway: São Paulo (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/sao-paulo.tmTheme"
-            },
-            {
-                "label": "Subway: Seoul (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/seoul.tmTheme"
-            },
-            {
-                "label": "Subway: Sydney (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/sydney.tmTheme"
-            },
-            {
-                "label": "Subway: Tokyo (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/tokyo.tmTheme"
-            },
-            {
-                "label": "Subway: Zürich (TextMate)",
-                "uiTheme": "vs",
-                "path": "./themes/zurich.tmTheme"
-            },
-            {
-                "label": "Subway: Barcelona",
-                "uiTheme": "vs",
-                "path": "./themes/barcelona.json"
-            },
-            {
-                "label": "Subway: Berlin",
-                "uiTheme": "vs",
-                "path": "./themes/berlin.json"
-            },
-            {
-                "label": "Subway: Buenos Aires",
-                "uiTheme": "vs",
-                "path": "./themes/buenos-aires.json"
-            },
-            {
-                "label": "Subway: Chicago",
-                "uiTheme": "vs",
-                "path": "./themes/chicago.json"
-            },
-            {
-                "label": "Subway: Copenhagen",
-                "uiTheme": "vs",
-                "path": "./themes/copenhagen.json"
-            },
-            {
-                "label": "Subway: Hong Kong",
-                "uiTheme": "vs",
-                "path": "./themes/hong-kong.json"
-            },
-            {
-                "label": "Subway: London",
-                "uiTheme": "vs",
-                "path": "./themes/london.json"
-            },
-            {
-                "label": "Subway: Madrid",
-                "uiTheme": "vs",
-                "path": "./themes/madrid.json"
-            },
-            {
-                "label": "Subway: Moscow",
-                "uiTheme": "vs",
-                "path": "./themes/moscow.json"
-            },
-            {
-                "label": "Subway: New York",
-                "uiTheme": "vs",
-                "path": "./themes/new-york.json"
-            },
-            {
-                "label": "Subway: Paris",
-                "uiTheme": "vs",
-                "path": "./themes/paris.json"
-            },
-            {
-                "label": "Subway: São Paulo",
-                "uiTheme": "vs",
-                "path": "./themes/sao-paulo.json"
-            },
-            {
-                "label": "Subway: Seoul",
-                "uiTheme": "vs",
-                "path": "./themes/seoul.json"
-            },
-            {
-                "label": "Subway: Sydney",
-                "uiTheme": "vs",
-                "path": "./themes/sydney.json"
-            },
-            {
-                "label": "Subway: Tokyo",
-                "uiTheme": "vs",
-                "path": "./themes/tokyo.json"
-            },
-            {
-                "label": "Subway: Zürich",
-                "uiTheme": "vs",
-                "path": "./themes/zurich.json"
-            }
-        ]
-    },
-    "devDependencies": {
-        "gulp": "^4.0.0",
-        "gulp-raster": "^0.2.0",
-        "gulp-rename": "^1.2.3",
-        "husky": "^0.14.3",
-        "vscode": "^1.0.3",
-        "vscode-linter": "^0.2.1"
+  "name": "subway",
+  "displayName": "Subway",
+  "description": "A collection of color schemes based on subway maps from around the world",
+  "version": "1.0.6",
+  "publisher": "idleberg",
+  "license": "CC0-1.0",
+  "author": {
+    "name": "Jan T. Sott",
+    "url": "http://github.com/idleberg"
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "precommit": "npm run test",
+    "test": "vscode-linter",
+    "vscode:prepublish": "gulp"
+  },
+  "keywords": [
+    "base16",
+    "cartography",
+    "subway maps",
+    "subway",
+    "transportation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idleberg/vscode-subway"
+  },
+  "homepage": "https://github.com/idleberg/vscode-subway#readme",
+  "bugs": {
+    "url": "https://github.com/idleberg/vscode-subway/issues"
+  },
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#989c9c",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Subway: Barcelona (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/barcelona.tmTheme"
+      },
+      {
+        "label": "Subway: Berlin (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/berlin.tmTheme"
+      },
+      {
+        "label": "Subway: Buenos Aires (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/buenos-aires.tmTheme"
+      },
+      {
+        "label": "Subway: Chicago (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/chicago.tmTheme"
+      },
+      {
+        "label": "Subway: Copenhagen (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/copenhagen.tmTheme"
+      },
+      {
+        "label": "Subway: Hong Kong (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/hong-kong.tmTheme"
+      },
+      {
+        "label": "Subway: London (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/london.tmTheme"
+      },
+      {
+        "label": "Subway: Madrid (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/madrid.tmTheme"
+      },
+      {
+        "label": "Subway: Moscow (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/moscow.tmTheme"
+      },
+      {
+        "label": "Subway: New York (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/new-york.tmTheme"
+      },
+      {
+        "label": "Subway: Paris (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/paris.tmTheme"
+      },
+      {
+        "label": "Subway: São Paulo (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/sao-paulo.tmTheme"
+      },
+      {
+        "label": "Subway: Seoul (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/seoul.tmTheme"
+      },
+      {
+        "label": "Subway: Sydney (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/sydney.tmTheme"
+      },
+      {
+        "label": "Subway: Tokyo (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/tokyo.tmTheme"
+      },
+      {
+        "label": "Subway: Zürich (TextMate)",
+        "uiTheme": "vs",
+        "path": "./themes/zurich.tmTheme"
+      },
+      {
+        "label": "Subway: Barcelona",
+        "uiTheme": "vs",
+        "path": "./themes/barcelona.json"
+      },
+      {
+        "label": "Subway: Berlin",
+        "uiTheme": "vs",
+        "path": "./themes/berlin.json"
+      },
+      {
+        "label": "Subway: Buenos Aires",
+        "uiTheme": "vs",
+        "path": "./themes/buenos-aires.json"
+      },
+      {
+        "label": "Subway: Chicago",
+        "uiTheme": "vs",
+        "path": "./themes/chicago.json"
+      },
+      {
+        "label": "Subway: Copenhagen",
+        "uiTheme": "vs",
+        "path": "./themes/copenhagen.json"
+      },
+      {
+        "label": "Subway: Hong Kong",
+        "uiTheme": "vs",
+        "path": "./themes/hong-kong.json"
+      },
+      {
+        "label": "Subway: London",
+        "uiTheme": "vs",
+        "path": "./themes/london.json"
+      },
+      {
+        "label": "Subway: Madrid",
+        "uiTheme": "vs",
+        "path": "./themes/madrid.json"
+      },
+      {
+        "label": "Subway: Moscow",
+        "uiTheme": "vs",
+        "path": "./themes/moscow.json"
+      },
+      {
+        "label": "Subway: New York",
+        "uiTheme": "vs",
+        "path": "./themes/new-york.json"
+      },
+      {
+        "label": "Subway: Paris",
+        "uiTheme": "vs",
+        "path": "./themes/paris.json"
+      },
+      {
+        "label": "Subway: São Paulo",
+        "uiTheme": "vs",
+        "path": "./themes/sao-paulo.json"
+      },
+      {
+        "label": "Subway: Seoul",
+        "uiTheme": "vs",
+        "path": "./themes/seoul.json"
+      },
+      {
+        "label": "Subway: Sydney",
+        "uiTheme": "vs",
+        "path": "./themes/sydney.json"
+      },
+      {
+        "label": "Subway: Tokyo",
+        "uiTheme": "vs",
+        "path": "./themes/tokyo.json"
+      },
+      {
+        "label": "Subway: Zürich",
+        "uiTheme": "vs",
+        "path": "./themes/zurich.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-raster": "^0.2.0",
+    "gulp-rename": "^1.2.3",
+    "husky": ">=4 <5",
+    "jsonlint": "^1.6.3",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.json": [
+      "jsonlint --quiet",
+      "prettier --write"
+    ]
+  }
 }

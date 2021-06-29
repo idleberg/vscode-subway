@@ -1,4 +1,34 @@
+# Development
+*.map
+.circleci/
+.editorconfig
+.eslintcache
+.eslintrc*
+.gitignore
 .travis.yml
 gulpfile.js
 package-lock.json
+rollup.config.js
+src/
+tools/
+tsconfig.json
+tsconfig.tsbuildinfo
+tslint.json
+webpack.config.js
+
+# Package managers
+node_modules/
+npm-debug.log*
+package-lock.json
+vendor/
+yarn-error.log
 yarn.lock
+
+# Visual Studio Code
+**/**.vsix
+.vscode-test/**
+.vscode/**
+
+# Project specific
+images/logo.svg
+todo.md
